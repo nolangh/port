@@ -1,25 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/3e0867e5c1.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/style.css" />
-    <title>Test Portfolio - Nolan Higgins</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,400&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <title>Nolan Higgins</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <body></body>
+  <body>
+    <!-- ------------------------------- Header -------------------------------- -->
+    <header class="header_main" id="header">
+      <img
+        src="/images/Logo.svg"
+        class="header_logo"
+        id="logo"
+        alt="logo for
+      nolan higgins"
+      />
+      <a
+        href="/miscFiles/resume_10-23-21.pdf"
+        download
+        class="header_button_cv_link"
+        id="button"
+      >
+        <strong>Download cv</strong>
+      </a>
+    </header>
+    <!-- ---------------------------- Home Section  ----------------------------- -->
+
+    <section class="home_section" id="home">
+      <div class="home_section_hero_title_div">
+        <p id="home_hero_title">Hey, I'm nolan 👋</p>
+      </div>
+
+      <div class="home_phrase_div">
+        <p id="home_phrase">I write code</p>
+      </div>
+      <hr id="home_section_break" />
+      <!-- ----------------------------- navigation ------------------------------ -->
+
+      <div class="nav_div">
+        <ul class="nav_ul">
+          <li class="nav_li">
+            <a href="#projects" class="nav_a" id="button">Projects</a>
+          </li>
+
+          <li class="nav_li">
+            <a href="#skills" class="nav_a" id="button">skills</a>
+          </li>
+
+          <li class="nav_li">
+            <a
+              href="https://github.com/nolangh"
+              target="#"
+              class="nav_a"
+              id="button"
+              >github</a
+            >
+          </li>
+
+          <li class="nav_li">
+            <a
+              href="https://www.linkedin.com/in/nolan-higgins/"
+              target="_blank"
+              class="nav_a"
+              id="button"
+              >linkedin</a
+            >
+          </li>
+          <li class="nav_li">
+            <a href="#" target="_blank" class="nav_a" id="button">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
