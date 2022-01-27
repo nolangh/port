@@ -14,6 +14,39 @@
 /* ---------------------------------- Fonts --------------------------------- */
 /* ------------------------------ Font-Weights ------------------------------ */
 /* ------------------------------- Fonts-Size ------------------------------- */
+/* ------------------------------- Root styles ------------------------------ */
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #f7f7ed;
+  color: #0c0f0a;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+strong {
+  font-weight: 500;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* FIXME: style links for hover and after click */
+/* TODO: add media querys */
+/* TODO: style links on home page for hover and after click */
+/* TODO re-style button */
 body {
   background: #f7f7ed;
 }

@@ -1,4 +1,14 @@
+/* FIXME: style links for hover and after click */
+/* TODO: add media querys */
+/* TODO: style links on home page for hover and after click */
+/* TODO re-style button */
+
 @use "vars" as v;
+@use "global" as g;
+
+:root {
+  @include root-style;
+}
 
 body {
   background: v.$white;
