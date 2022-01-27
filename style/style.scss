@@ -1,1 +1,5 @@
-@use "vars" as .v;
+@use "vars" as v;
+
+body {
+  background: v.$green;
+}
