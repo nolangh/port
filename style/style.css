@@ -1,30 +1,19 @@
-/* :root {
-    --------------------------------- COLORS --------------------------------- 
-    --black: #02010c;
-    --green: #003826;
-    --pink: #DBB3B3;
-    --orange: #F6AA1C;
-    --white: #F7F7ED;
+/* FIXME: style links for hover and after click */
+/* TODO: add media querys */
+/* TODO: style links on home page for hover and after click */
+/* -------------------------- TODO re-style button -------------------------- */
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-
-    --ff-primary: 'Bebas Neue', cursive;
-    --ff-secondary: 'Roboto', sans-serif;
-
-    --fw-light: 100;
-    --fw-reg: 300;
-    --fw-bold: 900;
-
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-
-    --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
-        0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
-
-
-} */
-/* --------------------------------- Colors --------------------------------- */
+/* --------------------------------- COLORS --------------------------------- */
+/* ---------------------------------- Fonts --------------------------------- */
+/* ------------------------------ Font-Weights ------------------------------ */
+/* ------------------------------- Fonts-Size ------------------------------- */
 body {
-  background: #003826;
+  background: #f7f7ed;
 }
