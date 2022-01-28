@@ -32,6 +32,11 @@ section {
   width: 100vw;
 }
 
+#button:hover {
+  color: v.$blue;
+  border: 2px solid v.$blue;
+}
+
 /* --------------------------------- HEADER --------------------------------- */
 .header_main {
   display: flex;
@@ -57,10 +62,6 @@ section {
     font-weight: v.$fw-bold;
     color: v.$black;
   }
-}
-#button:hover {
-  color: v.$blue;
-  border: 2px solid v.$blue;
 }
 
 /* ------------------------------ home section ------------------------------ */

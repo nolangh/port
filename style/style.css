@@ -35,6 +35,11 @@ section {
   width: 100vw;
 }
 
+#button:hover {
+  color: #3a86ff;
+  border: 2px solid #3a86ff;
+}
+
 /* --------------------------------- HEADER --------------------------------- */
 .header_main {
   display: -webkit-box;
@@ -67,11 +72,6 @@ section {
   text-decoration: none;
   font-weight: 500;
   color: #0c0f0a;
-}
-
-#button:hover {
-  color: #3a86ff;
-  border: 2px solid #3a86ff;
 }
 
 /* ------------------------------ home section ------------------------------ */
