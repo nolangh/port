@@ -40,26 +40,100 @@ section {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+
+  .header_logo {
+    margin: 1em;
+    height: 3em;
+  }
+
+  .header_button_cv_link {
+    border: 2px solid v.$black;
+    margin-right: 1em;
+    margin-bottom: 1.2em;
+    padding: 2px 8px 2px 8px;
+    font-family: v.$ff-secondary;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: v.$fw-bold;
+    color: v.$black;
+  }
+
+  #button:hover {
+    color: v.$blue;
+    border: 2px solid v.$blue;
+  }
 }
 
-.header_button_cv_link {
-  border: 2px solid v.$black;
-  margin-right: 1em;
-  margin-bottom: 1.2em;
-  padding: 2px 8px 2px 8px;
-  font-family: v.$ff-secondary;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: v.$fw-bold;
-  color: v.$black;
+/* ------------------------------ home section ------------------------------ */
+
+.home_section {
+  background: v.$white;
+  display: flex;
+  flex-direction: column;
 }
 
-#button:hover {
-  color: v.$blue;
-  border: 2px solid v.$blue;
+.home_section_hero_title_div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 5em;
+  margin-top: 8em;
+  background: v.$white;
+
+  #home_hero_title {
+    text-transform: uppercase;
+    font-size: 8em;
+    margin: 0;
+    color: v.$black;
+    font-family: v.$ff-secondary;
+    font-weight: v.$fw-bold;
+  }
 }
 
-.header_logo {
-  margin: 1em;
-  height: 3em;
+.home_phrase_div {
+  background-color: v.$white;
+  display: flex;
+  justify-content: center;
+
+  #home_phrase {
+    color: v.$black;
+    margin: 0;
+    font-family: v.$ff-secondary;
+    font-weight: v.$fw-light;
+    font-size: 4em;
+  }
+}
+
+/* ------------------------------- Line Break ------------------------------- */
+
+#home_section_break {
+  margin: 2em 25% 0 25%;
+  display: block;
+  border: 1px solid v.$grey;
+}
+
+/* ----------------------------- Home Nav Links ----------------------------- */
+
+.nav_div {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90rem;
+
+  .nav_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+
+    .nav_a {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: v.$ff-secondary;
+      font-weight: v.$fw-bold;
+      color: v.$black;
+      border: 2px solid v.$black;
+      padding: 0.5em;
+    }
+  }
 }
