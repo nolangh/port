@@ -68,7 +68,8 @@ section {
   font-weight: 500;
   color: #0c0f0a;
 }
-.header_main #button:hover {
+
+#button:hover {
   color: #3a86ff;
   border: 2px solid #3a86ff;
 }
