@@ -5,11 +5,34 @@
 
 @use "vars" as v;
 @use "global" as g;
+/* ----------------------------- General styles ----------------------------- */
+@include g.root-style;
 
-:root {
-  @include root-style;
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+  overflow-x: hidden;
 }
 
 body {
   background: v.$white;
+  color: v.$black;
+  margin: 0;
+  font-family: v.$ff-secondary;
+  font-size: v.$fs-body;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+strong {
+  font-weight: v.$fw-bold;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
 }

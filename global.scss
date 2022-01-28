@@ -8,40 +8,4 @@
     margin: 0;
     padding: 0;
   }
-
-  html {
-    scroll-behavior: smooth;
-    cursor: default;
-    overflow-x: hidden;
-  }
-
-  html::-webkit-scrollbar {
-    display: none;
-  }
-
-  body {
-    background: v.$white;
-    color: v.$black;
-    margin: 0;
-    font-family: v.$ff-secondary;
-    font-size: v.$fs-body;
-    line-height: 1.6;
-  }
-
-  strong {
-    font-weight: v.$fw-bold;
-  }
-
-  section {
-    height: 100vh;
-    width: 100vw;
-  }
-}
-
-/* ---------------------------------- Media --------------------------------- */
-@media screen and (min-width: v.$med-breakPoint) {
-  $med-fs-h1: 4.5rem;
-  $med-fs-h2: 3.75rem;
-  $med-fs-h3: 3.75rem;
-  $med-fs-body: 1.125rem;
 }
