@@ -6,14 +6,14 @@
 /* FIXME: style links for hover and after click */
 /* TODO: add media querys */
 /* TODO: style links on home page for hover and after click */
-/* TODO re-style button */
 /* ----------------------------- General styles ----------------------------- */
 html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
 }
-html html::-webkit-scrollbar {
+
+html::-webkit-scrollbar {
   display: none;
 }
 
@@ -93,11 +93,13 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-left: 5em;
   margin-top: 8em;
   background: #f7f7ed;
 }
@@ -121,6 +123,9 @@ section {
 }
 .home_phrase_div #home_phrase {
   color: #0c0f0a;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -129,17 +134,17 @@ section {
 
 /* ------------------------------- Line Break ------------------------------- */
 #home_section_break {
-  margin: 2em 25% 0 25%;
+  margin: 3em 20% 0 20%;
   display: block;
   border: 1px solid #c2c2c2;
 }
 
 /* ----------------------------- Home Nav Links ----------------------------- */
 .nav_div {
-  margin-top: 3em;
+  margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
-  width: 90rem;
+  width: 90em;
 }
 .nav_div .nav_ul {
   list-style-type: none;
@@ -149,7 +154,7 @@ section {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-left: 0;
+  padding: 0;
 }
 .nav_div .nav_ul .nav_a {
   text-transform: uppercase;
