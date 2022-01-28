@@ -4,14 +4,14 @@
 /* TODO re-style button */
 
 @use "vars" as v;
-@use "global" as g;
 /* ----------------------------- General styles ----------------------------- */
-@include g.root-style;
-
 html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
+  html::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 body {
@@ -23,11 +23,6 @@ body {
   line-height: 1.6;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 strong {
   font-weight: v.$fw-bold;
 }
@@ -35,4 +30,36 @@ strong {
 section {
   height: 100vh;
   width: 100vw;
+}
+
+/* --------------------------------- HEADER --------------------------------- */
+.header_main {
+  display: flex;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header_button_cv_link {
+  border: 2px solid v.$black;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  padding: 2px 8px 2px 8px;
+  font-family: v.$ff-secondary;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: v.$fw-bold;
+  color: v.$black;
+}
+
+#button:hover {
+  color: v.$blue;
+  border: 2px solid v.$blue;
+}
+
+.header_logo {
+  margin: 1em;
+  height: 3em;
 }

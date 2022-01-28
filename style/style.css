@@ -1,27 +1,19 @@
-/* FIXME: style links for hover and after click */
-/* TODO: add media querys */
-/* TODO: style links on home page for hover and after click */
-/* -------------------------- TODO re-style button -------------------------- */
-::before,
-::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* --------------------------------- COLORS --------------------------------- */
 /* ---------------------------------- Fonts --------------------------------- */
 /* ------------------------------ Font-Weights ------------------------------ */
 /* ------------------------------- Fonts-Size ------------------------------- */
-/* ------------------------------- Root styles ------------------------------ */
+/* ------------------------------- Media ------------------------------ */
+/* FIXME: style links for hover and after click */
+/* TODO: add media querys */
+/* TODO: style links on home page for hover and after click */
+/* TODO re-style button */
+/* ----------------------------- General styles ----------------------------- */
 html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
 }
-
-html::-webkit-scrollbar {
+html html::-webkit-scrollbar {
   display: none;
 }
 
@@ -43,10 +35,43 @@ section {
   width: 100vw;
 }
 
-/* FIXME: style links for hover and after click */
-/* TODO: add media querys */
-/* TODO: style links on home page for hover and after click */
-/* TODO re-style button */
-body {
-  background: #f7f7ed;
+/* --------------------------------- HEADER --------------------------------- */
+.header_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0;
+  position: sticky;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header_button_cv_link {
+  border: 2px solid #0c0f0a;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  padding: 2px 8px 2px 8px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  color: #0c0f0a;
+}
+
+#button:hover {
+  color: #3a86ff;
+  border: 2px solid #3a86ff;
+}
+
+.header_logo {
+  margin: 1em;
+  height: 3em;
 }
