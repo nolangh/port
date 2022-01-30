@@ -1,5 +1,4 @@
 /* FIXME: style links for hover and after click */
-/* TODO: add media querys */
 /* TODO: style links on home page for hover and after click */
 
 @use "vars" as v;
@@ -8,6 +7,7 @@ html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 html::-webkit-scrollbar {
@@ -17,7 +17,6 @@ html::-webkit-scrollbar {
 body {
   background: v.$white;
   color: v.$black;
-  margin: 0;
   font-family: v.$ff-secondary;
   font-size: v.$fs-body;
   line-height: 1.6;
@@ -28,8 +27,8 @@ strong {
 }
 
 section {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 #button:hover {
@@ -70,23 +69,24 @@ section {
   background: v.$white;
   display: flex;
   flex-direction: column;
-}
+  height: 100;
 
-.home_section_hero_title_div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 8em;
-  background: v.$white;
+  .home_section_hero_title_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25em;
+    background: v.$white;
 
-  #home_hero_title {
-    text-transform: uppercase;
-    font-size: 8em;
-    margin: 0;
-    color: v.$black;
-    font-family: v.$ff-secondary;
-    font-weight: v.$fw-bold;
+    #home_hero_title {
+      text-transform: uppercase;
+      font-size: 8em;
+      margin: 0;
+      color: v.$black;
+      font-family: v.$ff-secondary;
+      font-weight: v.$fw-bold;
+    }
   }
 }
 

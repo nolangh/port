@@ -4,13 +4,13 @@
 /* ------------------------------- Font-Size ------------------------------- */
 /* ------------------------------- Media ------------------------------ */
 /* FIXME: style links for hover and after click */
-/* TODO: add media querys */
 /* TODO: style links on home page for hover and after click */
 /* ----------------------------- General styles ----------------------------- */
 html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 html::-webkit-scrollbar {
@@ -20,7 +20,6 @@ html::-webkit-scrollbar {
 body {
   background: #f7f7ed;
   color: #0c0f0a;
-  margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   line-height: 1.6;
@@ -31,8 +30,8 @@ strong {
 }
 
 section {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
 }
 
 #button:hover {
@@ -84,26 +83,26 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100;
 }
-
-.home_section_hero_title_div {
+.home_section .home_section_hero_title_div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 8em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25em;
   background: #f7f7ed;
 }
-.home_section_hero_title_div #home_hero_title {
+.home_section .home_section_hero_title_div #home_hero_title {
   text-transform: uppercase;
   font-size: 8em;
   margin: 0;
