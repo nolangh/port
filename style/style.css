@@ -83,7 +83,8 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 .home_section .home_section_hero_title_div {
   display: -webkit-box;
@@ -99,7 +100,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 25em;
+  margin-top: 8em;
   background: #f7f7ed;
 }
 .home_section .home_section_hero_title_div #home_hero_title {
