@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
   cursor: default;
   overflow-x: hidden;
-  height: 100vh;
+  /* ----------------------------- ANCHOR height: 100vh; ----------------------------- */
 }
 
 html::-webkit-scrollbar {
@@ -83,7 +83,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100;
+  height: 100%;
 }
 .home_section .home_section_hero_title_div {
   display: -webkit-box;
