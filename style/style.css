@@ -5,6 +5,7 @@
 /* ------------------------------- Media ------------------------------ */
 /* FIXME: style links for hover and after click */
 /* TODO: style links on home page for hover and after click */
+/* TODO: add :hover to Download-CV */
 /* ----------------------------- General styles ----------------------------- */
 html {
   scroll-behavior: smooth;
@@ -56,21 +57,25 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  /* .header_button_cv_link {
+    border: 2px solid v.$black;
+    margin-right: 1em;
+    margin-bottom: 1.2em;
+    padding: 2px 8px 2px 8px;
+    font-family: v.$ff-secondary;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: v.$fw-bold;
+    color: v.$black;
+  } */
 }
 .header_main .header_logo {
   margin: 1em;
   height: 3em;
 }
-.header_main .header_button_cv_link {
-  border: 2px solid #0c0f0a;
-  margin-right: 1em;
-  margin-bottom: 1.2em;
-  padding: 2px 8px 2px 8px;
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 500;
-  color: #0c0f0a;
+.header_main .header_download {
+  margin: 1em;
+  height: 3em;
 }
 
 /* ------------------------------ home section ------------------------------ */
