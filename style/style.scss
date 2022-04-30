@@ -5,58 +5,63 @@
 
 /* ----------------------------- General styles ----------------------------- */
 html {
-  scroll-behavior: smooth;
-  cursor: default;
-  overflow-x: hidden;
-  /* ----------------------------- ANCHOR height: 100vh; ----------------------------- */
+	scroll-behavior: smooth;
+	cursor: default;
+	overflow-x: hidden;
+	/* ----------------------------- ANCHOR height: 100vh; ----------------------------- */
 }
 
 html::-webkit-scrollbar {
-  display: none;
+	display: none;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  background: v.$white;
-  color: v.$black;
-  font-family: v.$ff-secondary;
-  font-size: v.$fs-body;
-  line-height: 1.6;
+	background: v.$white;
+	color: v.$black;
+	font-family: v.$ff-secondary;
+	font-size: v.$fs-body;
+	line-height: 1.6;
 }
 
 strong {
-  font-weight: v.$fw-bold;
+	font-weight: v.$fw-bold;
 }
 
 section {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 #button:hover {
-  color: v.$blue;
-  border: 2px solid v.$blue;
+	color: v.$blue;
+	border: 2px solid v.$blue;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
 .header_main {
-  display: flex;
-  top: 0;
-  position: sticky;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
+	display: flex;
+	top: 0;
+	position: sticky;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
 
-  .header_logo {
-    margin: 1em;
-    height: 3em;
-  }
+	.header_logo {
+		margin: 1em;
+		height: 3em;
+	}
 
-  .header_download {
-    margin: 1em;
-    height: 3em;
-  }
+	.header_download {
+		margin: 1em;
+		height: 3em;
+	}
 
-  /* .header_button_cv_link {
+	/* .header_button_cv_link {
     border: 2px solid v.$black;
     margin-right: 1em;
     margin-bottom: 1.2em;
@@ -72,76 +77,76 @@ section {
 /* ------------------------------ home section ------------------------------ */
 
 .home_section {
-  background: v.$white;
-  display: flex;
-  flex-direction: column;
-  max-height: 100%;
-  max-width: 100%;
+	background: v.$white;
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+	max-width: 100%;
 
-  .home_section_hero_title_div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8em;
-    background: v.$white;
+	.home_section_hero_title_div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 8em;
+		background: v.$white;
 
-    #home_hero_title {
-      text-transform: uppercase;
-      font-size: 8em;
-      margin: 0;
-      color: v.$black;
-      font-family: v.$ff-secondary;
-      font-weight: v.$fw-bold;
-    }
-  }
+		#home_hero_title {
+			text-transform: uppercase;
+			font-size: 8em;
+			margin: 0;
+			color: v.$black;
+			font-family: v.$ff-secondary;
+			font-weight: v.$fw-bold;
+		}
+	}
 }
 
 .home_phrase_div {
-  background-color: v.$white;
-  display: flex;
-  justify-content: center;
+	background-color: v.$white;
+	display: flex;
+	justify-content: center;
 
-  #home_phrase {
-    color: v.$black;
-    justify-content: center;
-    margin: 0;
-    font-family: v.$ff-secondary;
-    font-weight: v.$fw-light;
-    font-size: 4em;
-  }
+	#home_phrase {
+		color: v.$black;
+		justify-content: center;
+		margin: 0;
+		font-family: v.$ff-secondary;
+		font-weight: v.$fw-light;
+		font-size: 4em;
+	}
 }
 
 /* ------------------------------- Line Break ------------------------------- */
 
 #home_section_break {
-  margin: 3em 20% 0 20%;
-  display: block;
-  border: 1px solid v.$grey;
+	margin: 3em 20% 0 20%;
+	display: block;
+	border: 1px solid v.$grey;
 }
 
 /* ----------------------------- Home Nav Links ----------------------------- */
 
 .nav_div {
-  margin-top: 4em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90em;
+	margin-top: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90em;
 
-  .nav_ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
+	.nav_ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-evenly;
+		padding: 0;
 
-    .nav_a {
-      text-transform: uppercase;
-      text-decoration: none;
-      font-family: v.$ff-secondary;
-      font-weight: v.$fw-bold;
-      color: v.$black;
-      border: 2px solid v.$black;
-      padding: 0.5em;
-    }
-  }
+		.nav_a {
+			text-transform: uppercase;
+			text-decoration: none;
+			font-family: v.$ff-secondary;
+			font-weight: v.$fw-bold;
+			color: v.$black;
+			border: 2px solid v.$black;
+			padding: 0.5em;
+		}
+	}
 }
