@@ -23,14 +23,6 @@ html::-webkit-scrollbar {
   padding: 0;
 }
 
-body {
-  background: #f7f7ed;
-  color: #0c0f0a;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 strong {
   font-weight: 500;
 }
@@ -64,16 +56,24 @@ section {
   height: 3em;
 }
 
-/* ------------------------------ Home Section ------------------------------ */
-.home_section {
+body {
+  background: #f7f7ed;
+  color: #0c0f0a;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  /* ------------------------------ Home Section ------------------------------ */
+  /* ------------------------------- Line Break ------------------------------- */
+  /* ----------------------------- Home Nav Links ----------------------------- */
+}
+body .home_section {
   background: #f7f7ed;
   margin-top: 10%;
   display: flex;
   flex-direction: column;
-  max-height: 100%;
   max-width: 100%;
 }
-.home_section .home_section_hero_title_div {
+body .home_section .home_section_hero_title_div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +81,7 @@ section {
   margin-top: 8em;
   background: #f7f7ed;
 }
-.home_section .home_section_hero_title_div #home_hero_title {
+body .home_section .home_section_hero_title_div #home_hero_title {
   text-transform: uppercase;
   font-size: 8em;
   margin: 0;
@@ -89,13 +89,12 @@ section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
-
-.home_phrase_div {
+body .home_phrase_div {
   background-color: #f7f7ed;
   display: flex;
   justify-content: center;
 }
-.home_phrase_div #home_phrase {
+body .home_phrase_div #home_phrase {
   color: #0c0f0a;
   justify-content: center;
   margin: 0;
@@ -103,28 +102,24 @@ section {
   font-weight: 100;
   font-size: 4em;
 }
-
-/* ------------------------------- Line Break ------------------------------- */
-#home_section_break {
+body #home_section_break {
   margin: 3em 20% 0 20%;
   display: block;
   border: 1px solid #c2c2c2;
 }
-
-/* ----------------------------- Home Nav Links ----------------------------- */
-.nav_div {
+body .nav_div {
   margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
   width: 90em;
 }
-.nav_div .nav_ul {
+body .nav_div .nav_ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
 }
-.nav_div .nav_ul .nav_a {
+body .nav_div .nav_ul .nav_a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
@@ -132,4 +127,82 @@ section {
   color: #0c0f0a;
   border: 2px solid #0c0f0a;
   padding: 0.5em;
+}
+body .card-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+body .card-section .card-container {
+  display: flex;
+  flex-direction: column;
+  background: lightgreen;
+  width: 100rem;
+  height: 60rem;
+}
+body .card-section .card-container .card-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: coral;
+  height: 50%;
+}
+body .card-section .card-container .card-top .card {
+  width: 15rem;
+  height: 20rem;
+  padding: 2%;
+  background: rgb(255, 255, 255);
+  border: 2px solid #0c0f0a;
+  transition-duration: 600ms;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
+}
+body .card-section .card-container .card-top .card:hover {
+  cursor: pointer;
+  border-top: 2px solid #0c0f0a;
+  border-left: 2px solid #0c0f0a;
+  border-bottom: 2px solid #0c0f0a;
+  border-right: 2px solid #0c0f0a;
+  box-shadow: rgb(0, 0, 0) 1rem 1rem;
+}
+body .card-section .card-container .card-top .card__content {
+  font-size: small;
+  text-align: center;
+}
+body .card-section .card-container .card-top .card__content-heading {
+  color: #0c0f0a;
+}
+body .card-section .card-container .card-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: purple;
+  height: 50%;
+}
+body .card-section .card-container .card-bottom .card {
+  width: 15rem;
+  height: 20rem;
+  padding: 2%;
+  background: rgb(255, 255, 255);
+  border: 2px solid #0c0f0a;
+  transition-duration: 600ms;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
+}
+body .card-section .card-container .card-bottom .card:hover {
+  cursor: pointer;
+  border-top: 2px solid #0c0f0a;
+  border-left: 2px solid #0c0f0a;
+  border-bottom: 2px solid #0c0f0a;
+  border-right: 2px solid #0c0f0a;
+  box-shadow: rgb(0, 0, 0) 1rem 1rem;
+}
+body .card-section .card-container .card-bottom .card__content {
+  font-size: small;
+  text-align: center;
+}
+body .card-section .card-container .card-bottom .card__content-heading {
+  color: #0c0f0a;
 }/*# sourceMappingURL=style.css.map */
