@@ -54,17 +54,6 @@ section {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  /* .header_button_cv_link {
-     border: 2px solid v.$black;
-     margin-right: 1em;
-     margin-bottom: 1.2em;
-     padding: 2px 8px 2px 8px;
-     font-family: v.$ff-secondary;
-     text-transform: uppercase;
-     text-decoration: none;
-     font-weight: v.$fw-bold;
-     color: v.$black;
-   } */
 }
 .header_main .header_logo {
   margin: 1em;
@@ -75,9 +64,10 @@ section {
   height: 3em;
 }
 
-/* ------------------------------ home section ------------------------------ */
+/* ------------------------------ Home Section ------------------------------ */
 .home_section {
   background: #f7f7ed;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   max-height: 100%;
