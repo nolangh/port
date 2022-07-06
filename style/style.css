@@ -172,6 +172,24 @@ body .card-section .card-container .card-top .card__content {
   text-align: center;
 }
 body .card-section .card-container .card-top .card__content-heading {
+  color: blueviolet;
+}
+body .card-section .card-container .card-top .card__content-body p {
+  color: rgb(118, 104, 128);
+  padding-bottom: 1rem;
+}
+body .card-section .card-container .card-top .card__content-footer button {
+  background-color: rgb(255, 255, 255);
+  color: grey;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition-duration: 1s;
+  transition-property: background-color, color, border;
+}
+body .card-section .card-container .card-top .card__content-heading {
   color: #0c0f0a;
 }
 body .card-section .card-container .card-bottom {
@@ -204,5 +222,27 @@ body .card-section .card-container .card-bottom .card__content {
   text-align: center;
 }
 body .card-section .card-container .card-bottom .card__content-heading {
+  color: blueviolet;
+}
+body .card-section .card-container .card-bottom .card__content-body p {
+  color: rgb(118, 104, 128);
+  padding-bottom: 1rem;
+}
+body .card-section .card-container .card-bottom .card__content-footer button {
+  background-color: rgb(255, 255, 255);
+  color: grey;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  border: 1px solid grey;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition-duration: 1s;
+  transition-property: background-color, color, border;
+}
+body .card-section .card-container .card-bottom .card__content-heading {
   color: #0c0f0a;
+}
+body .card-section #reactCard {
+  width: 15rem;
+  height: 20rem;
 }/*# sourceMappingURL=style.css.map */

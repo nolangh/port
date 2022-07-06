@@ -170,6 +170,7 @@ body {
 					transition-duration: 600ms;
 					transition-property: border-top, border-left, border-bottom,
 						border-right, box-shadow;
+					// background-image: url(/images/reactScreenshot.png);
 				}
 
 				.card:hover {
@@ -184,6 +185,27 @@ body {
 				.card__content {
 					font-size: small;
 					text-align: center;
+				}
+
+				.card__content-heading {
+					color: blueviolet;
+				}
+
+				.card__content-body p {
+					color: rgb(118, 104, 128);
+					padding-bottom: 1rem;
+				}
+
+				.card__content-footer button {
+					background-color: rgb(255, 255, 255);
+					color: grey;
+					font-weight: 700;
+					border-radius: 0.2rem;
+					border: 1px solid grey;
+					padding: 0.5rem;
+					margin: 1rem;
+					transition-duration: 1s;
+					transition-property: background-color, color, border;
 				}
 
 				.card__content-heading {
@@ -225,9 +247,35 @@ body {
 				}
 
 				.card__content-heading {
+					color: blueviolet;
+				}
+
+				.card__content-body p {
+					color: rgb(118, 104, 128);
+					padding-bottom: 1rem;
+				}
+
+				.card__content-footer button {
+					background-color: rgb(255, 255, 255);
+					color: grey;
+					font-weight: 700;
+					border-radius: 0.2rem;
+					border: 1px solid grey;
+					padding: 0.5rem;
+					margin: 1rem;
+					transition-duration: 1s;
+					transition-property: background-color, color, border;
+				}
+
+				.card__content-heading {
 					color: v.$black;
 				}
 			}
+		}
+
+		#reactCard {
+			width: 15rem;
+			height: 20rem;
 		}
 	}
 }
