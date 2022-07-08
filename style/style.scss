@@ -157,7 +157,7 @@ body {
 		.card-container {
 			display: flex;
 			flex-direction: column;
-			background: lightgreen;
+			background: v.$white;
 			width: 100rem;
 			height: 60rem;
 
@@ -166,7 +166,7 @@ body {
 				flex-direction: row;
 				align-items: center;
 				justify-content: space-around;
-				background-color: coral;
+				background-color: v.$white;
 				height: 50%;
 
 				.card {
