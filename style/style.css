@@ -8,245 +8,243 @@
 /* TODO: add :hover to Download-CV */
 /* ----------------------------- General styles ----------------------------- */
 html {
-	scroll-behavior: smooth;
-	cursor: default;
-	overflow-x: hidden;
-	/* ----------------------------- ANCHOR height: 100vh; ----------------------------- */
+  scroll-behavior: smooth;
+  cursor: default;
+  overflow-x: hidden;
+  /* ----------------------------- ANCHOR height: 100vh; ----------------------------- */
 }
 
 html::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
 
 .container-fluid {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 strong {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 section {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #button:hover {
-	color: #3a86ff;
-	border: 2px solid #3a86ff;
+  color: #3a86ff;
+  border: 2px solid #3a86ff;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
 .header_main {
-	display: flex;
-	top: 0;
-	position: -webkit-sticky;
-	position: sticky;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: row;
+  display: flex;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 .header_main .header_logo {
-	margin: 1em;
-	height: 3em;
+  margin: 1em;
+  height: 3em;
 }
 .header_main .header_download {
-	margin: 1em;
-	height: 3em;
+  margin: 1em;
+  height: 3em;
 }
 
 body {
-	background: #f7f7ed;
-	color: #0c0f0a;
-	font-family: "Roboto", sans-serif;
-	font-size: 1rem;
-	line-height: 1.6;
-	/* ------------------------------ Home Section ------------------------------ */
-	/* ------------------------------- Line Break ------------------------------- */
-	/* ----------------------------- Home Nav Links ----------------------------- */
+  background: #f7f7ed;
+  color: #0c0f0a;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  /* ------------------------------ Home Section ------------------------------ */
+  /* ------------------------------- Line Break ------------------------------- */
+  /* ----------------------------- Home Nav Links ----------------------------- */
 }
 body .home_section {
-	background: #f7f7ed;
-	margin-top: 10%;
-	display: flex;
-	flex-direction: column;
-	max-width: 100%;
+  background: #f7f7ed;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 body .home_section .home_section_hero_title_div {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-top: 8em;
-	background: #f7f7ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8em;
+  background: #f7f7ed;
 }
 body .home_section .home_section_hero_title_div #home_hero_title {
-	text-transform: uppercase;
-	font-size: 8em;
-	margin: 0;
-	color: #0c0f0a;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
+  text-transform: uppercase;
+  font-size: 8em;
+  margin: 0;
+  color: #0c0f0a;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 body .home_phrase_div {
-	background-color: #f7f7ed;
-	display: flex;
-	justify-content: center;
+  background-color: #f7f7ed;
+  display: flex;
+  justify-content: center;
 }
 body .home_phrase_div #home_phrase {
-	color: #0c0f0a;
-	justify-content: center;
-	margin: 0;
-	font-family: "Roboto", sans-serif;
-	font-weight: 100;
-	font-size: 4em;
+  color: #0c0f0a;
+  justify-content: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 4em;
 }
 body #home_section_break {
-	margin: 3em 20% 0 20%;
-	display: block;
-	border: 1px solid #c2c2c2;
+  margin: 3em 20% 0 20%;
+  display: block;
+  border: 1px solid #c2c2c2;
 }
 body .nav_div {
-	margin-top: 4em;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90em;
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90em;
 }
 body .nav_div .nav_ul {
-	list-style-type: none;
-	display: flex;
-	justify-content: space-evenly;
-	padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
 }
 body .nav_div .nav_ul .nav_a {
-	text-transform: uppercase;
-	text-decoration: none;
-	font-family: "Roboto", sans-serif;
-	font-weight: 500;
-	color: #0c0f0a;
-	border: 2px solid #0c0f0a;
-	padding: 0.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #0c0f0a;
+  border: 2px solid #0c0f0a;
+  padding: 0.5em;
 }
 body .card-section {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7ed;
 }
 body .card-section button:hover {
-	color: #f7f7ed;
-	background-color: rgb(238, 103, 238);
-	border: 1px solid #f7f7ed;
-	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
-		rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  color: #f7f7ed;
+  background-color: rgb(238, 103, 238);
+  border: 1px solid #f7f7ed;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 }
 body .card-section .card-container {
-	display: flex;
-	flex-direction: column;
-	background: #f7f7ed;
-	width: 100rem;
-	height: 60rem;
+  display: flex;
+  flex-direction: column;
+  background: #f7f7ed;
+  width: 100rem;
+  height: 60rem;
 }
 body .card-section .card-container .card-top {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	background-color: #f7f7ed;
-	height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7f7ed;
+  height: 50%;
 }
 body .card-section .card-container .card-top .card {
-	width: 15rem;
-	height: 20rem;
-	padding: 2%;
-	background: rgb(255, 255, 255);
-	border: 2px solid #0c0f0a;
-	transition-duration: 600ms;
-	transition-property: border-top, border-left, border-bottom, border-right,
-		box-shadow;
+  width: 15rem;
+  height: 20rem;
+  padding: 2%;
+  background: rgb(255, 255, 255);
+  border: 2px solid #0c0f0a;
+  transition-duration: 600ms;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
 }
 body .card-section .card-container .card-top .card:hover {
-	cursor: pointer;
-	border-top: 2px solid #0c0f0a;
-	border-left: 2px solid #0c0f0a;
-	border-bottom: 2px solid #0c0f0a;
-	border-right: 2px solid #0c0f0a;
-	box-shadow: rgb(0, 0, 0) 1rem 1rem;
+  cursor: pointer;
+  border-top: 2px solid #0c0f0a;
+  border-left: 2px solid #0c0f0a;
+  border-bottom: 2px solid #0c0f0a;
+  border-right: 2px solid #0c0f0a;
+  box-shadow: rgb(0, 0, 0) 1rem 1rem;
 }
 body .card-section .card-container .card-top .card__content {
-	font-size: small;
-	text-align: center;
+  font-size: small;
+  text-align: center;
 }
 body .card-section .card-container .card-top .card__content-heading {
-	color: #0c0f0a;
+  color: #0c0f0a;
 }
 body .card-section .card-container .card-top .card__content-body p {
-	color: #0c0f0a;
-	padding-bottom: 1rem;
+  color: #0c0f0a;
+  padding-bottom: 1rem;
 }
 body .card-section .card-container .card-top .card__content-footer button {
-	background-color: rgb(255, 255, 255);
-	color: #0c0f0a;
-	font-weight: 700;
-	border-radius: 0.2rem;
-	border: 1px solid #0c0f0a;
-	padding: 0.5rem;
-	margin: 1rem;
-	transition-duration: 1s;
-	transition-property: background-color, color, border;
+  background-color: rgb(255, 255, 255);
+  color: #0c0f0a;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  border: 1px solid #0c0f0a;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition-duration: 1s;
+  transition-property: background-color, color, border;
 }
 body .card-section .card-container .card-top .card__content-heading {
-	color: #0c0f0a;
+  color: #0c0f0a;
 }
 body .card-section .card-container .card-bottom {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	background-color: purple;
-	height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7f7ed;
+  height: 50%;
 }
 body .card-section .card-container .card-bottom .card {
-	width: 15rem;
-	height: 20rem;
-	padding: 2%;
-	background: rgb(255, 255, 255);
-	border: 2px solid #0c0f0a;
-	transition-duration: 600ms;
-	transition-property: border-top, border-left, border-bottom, border-right,
-		box-shadow;
+  width: 15rem;
+  height: 20rem;
+  padding: 2%;
+  background: rgb(255, 255, 255);
+  border: 2px solid #0c0f0a;
+  transition-duration: 600ms;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
 }
 body .card-section .card-container .card-bottom .card:hover {
-	cursor: pointer;
-	border-top: 2px solid #0c0f0a;
-	border-left: 2px solid #0c0f0a;
-	border-bottom: 2px solid #0c0f0a;
-	border-right: 2px solid #0c0f0a;
-	box-shadow: rgb(0, 0, 0) 1rem 1rem;
+  cursor: pointer;
+  border-top: 2px solid #0c0f0a;
+  border-left: 2px solid #0c0f0a;
+  border-bottom: 2px solid #0c0f0a;
+  border-right: 2px solid #0c0f0a;
+  box-shadow: rgb(0, 0, 0) 1rem 1rem;
 }
 body .card-section .card-container .card-bottom .card__content {
-	font-size: small;
-	text-align: center;
+  font-size: small;
+  text-align: center;
 }
 body .card-section .card-container .card-bottom .card__content-heading {
-	color: #0c0f0a;
+  color: #0c0f0a;
 }
 body .card-section .card-container .card-bottom .card__content-body p {
-	color: #0c0f0a;
-	padding-bottom: 1rem;
+  color: #0c0f0a;
+  padding-bottom: 1rem;
 }
 body .card-section .card-container .card-bottom .card__content-footer button {
-	background-color: rgb(255, 255, 255);
-	color: #0c0f0a;
-	font-weight: 700;
-	border-radius: 0.2rem;
-	border: 1px solid #0c0f0a;
-	padding: 0.5rem;
-	margin: 1rem;
-	transition-duration: 1s;
-	transition-property: background-color, color, border;
+  background-color: rgb(255, 255, 255);
+  color: #0c0f0a;
+  font-weight: 700;
+  border-radius: 0.2rem;
+  border: 1px solid #0c0f0a;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition-duration: 1s;
+  transition-property: background-color, color, border;
 }
 body .card-section .card-container .card-bottom .card__content-heading {
-	color: #0c0f0a;
-} /*# sourceMappingURL=style.css.map */
+  color: #0c0f0a;
+}/*# sourceMappingURL=style.css.map */
