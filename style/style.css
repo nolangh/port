@@ -33,8 +33,12 @@ section {
 }
 
 #button:hover {
-  color: #3a86ff;
-  border: 2px solid #3a86ff;
+  cursor: pointer;
+  border-top: 2px solid #0c0f0a;
+  border-left: 2px solid #0c0f0a;
+  border-bottom: 2px solid #0c0f0a;
+  border-right: 2px solid #0c0f0a;
+  box-shadow: rgb(0, 0, 0) 1rem 1rem;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
@@ -119,13 +123,18 @@ body .nav_div .nav_ul {
   justify-content: space-evenly;
   padding: 0;
 }
+body .nav_div .nav_ul .nav_li {
+  border: 2px solid #0c0f0a;
+  transition-duration: 600ms;
+  transition-property: border-top, border-left, border-bottom, border-right, box-shadow;
+  background: rgb(255, 255, 255);
+}
 body .nav_div .nav_ul .nav_a {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #0c0f0a;
-  border: 2px solid #0c0f0a;
   padding: 0.5em;
 }
 body .card-section {

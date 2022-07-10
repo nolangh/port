@@ -30,8 +30,12 @@ section {
 }
 
 #button:hover {
-	color: v.$blue;
-	border: 2px solid v.$blue;
+	cursor: pointer;
+	border-top: 2px solid v.$black;
+	border-left: 2px solid v.$black;
+	border-bottom: 2px solid v.$black;
+	border-right: 2px solid v.$black;
+	box-shadow: rgba(0, 0, 0, 1) 1rem 1rem;
 }
 
 /* --------------------------------- HEADER --------------------------------- */
@@ -127,13 +131,21 @@ body {
 			justify-content: space-evenly;
 			padding: 0;
 
+			.nav_li {
+				border: 2px solid v.$black;
+				transition-duration: 600ms;
+				transition-property: border-top, border-left, border-bottom,
+					border-right, box-shadow;
+				background: rgb(255, 255, 255);
+			}
+
 			.nav_a {
 				text-transform: uppercase;
 				text-decoration: none;
 				font-family: v.$ff-secondary;
 				font-weight: v.$fw-bold;
 				color: v.$black;
-				border: 2px solid v.$black;
+				// border: 2px solid v.$black;
 				padding: 0.5em;
 			}
 		}
